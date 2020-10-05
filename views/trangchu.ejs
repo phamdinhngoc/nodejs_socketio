@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Demo web socket io
+        </title>
+        <script src="jquery.js"></script>
+        <script src="socket.io/socket.io.js"></script>
+        <script>
+            //gọi tới server
+            var socket = io("http://localhost:3000");
+
+            $(document).ready(function(){
+                //alert("hello jquery");
+            });
+        </script>
+    </head>
+    <body>
+        hello world
+    </body>
+</html>
